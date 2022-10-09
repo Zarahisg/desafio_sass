@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+$primary: rgb(222, 96, 222);
+$font-family-base: "Oswald";
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    .card-title {
+        color: $primary;
+    }
+    .card-body {
+        background-color: grey;
+    }
+}
+.text-primary {
+@extend .card;
+}
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"
+
